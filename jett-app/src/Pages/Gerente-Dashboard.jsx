@@ -19,7 +19,6 @@ export const Gerente = () => {
             <Navbar handleSidebarToggle={handleSidebarToggle} />
             <div className="menu">
                 <MenuItens />
-                <h1>sadmaskdolmasdko</h1>
             </div>
         </main>
     );
