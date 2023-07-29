@@ -1,0 +1,68 @@
+[
+    {
+        "title": "Dashboard",
+        "icon": "bx bxs-dashboard",
+        "path": ""
+    },
+    {
+        "title": "Cadastros",
+        "icon": "bx bxs-user-detail",
+        "childrens": [
+            {
+                "title": "Cadastro de Alunos",
+                "path": "",
+                "icon": "bx bxs-user-plus"
+            },
+            {
+                "title": "Cadastro de Atividade",
+                "path": "",
+                "icon": "bx bxs-calendar-plus"
+            },
+            {
+                "title": "Cadastro de Produto",
+                "path": "",
+                "icon": "bx bxs-baguette"
+            },
+            {
+                "title": "Cadastro de Usuarios",
+                "path": "",
+                "icon": "bx bxs-id-card"
+            },
+            {
+                "title": "Cadastro de Profissionais",
+                "path": "",
+                "icon": "bx bxs-user-rectangle"
+            }
+        ]
+    },
+    {
+        "title": "Quadro de Horarios",
+        "icon": "bx bxs-calendar-alt",
+        "path": ""
+    },
+    {
+        "title": "Financeiro",
+        "icon": "bx bx-dollar",
+        "path": ""
+    },
+    {
+        "title": "Matriculas",
+        "icon": "bx bx-table",
+        "path": ""
+    },
+    {
+        "title": "Frequencia",
+        "icon": "bx bx-chart",
+        "path": ""
+    },
+    {
+        "title": "Relatorios",
+        "icon": "bx bx-clipboard",
+        "path": ""
+    },
+    {
+        "title": "Controle de Estoque",
+        "icon": "bx bx-package",
+        "path": ""
+    }
+]

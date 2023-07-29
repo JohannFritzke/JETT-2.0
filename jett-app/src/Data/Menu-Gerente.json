@@ -1,0 +1,51 @@
+[
+    {
+        "title": "Cadastros",
+        "icon": "bx bxs-user-detail",
+        "color": "#13dd74",
+        "backcolor":"#8FF5C4",
+        "path": ""
+    },
+    {
+        "title": "Quadro de Horarios",
+        "icon": "bx bxs-calendar-alt",
+        "color": "#0db1e7",
+        "backcolor":"#87D8F3",
+        "path": ""
+    },
+    {
+        "title":"Financeiro",
+        "icon":"bx bx-dollar",
+        "color":"#FBC02D",
+        "backcolor":"#FFF2C6",
+        "path":""
+    },
+    {
+        "title":"Matriculas",
+        "icon":"bx bx-table",
+        "color":"#4F72E3",
+        "backcolor":"#99ABE7",
+        "path":""
+    },
+    {
+        "title":"Frenquencia",
+        "icon":"bx bx-chart",
+        "color":"#904BF9",
+        "backcolor":"#C19EF6",
+        "path":""
+    },
+    {
+        "title":"Relatorios",
+        "icon":"bx bx-clipboard",
+        "color":"#EE2A42",
+        "backcolor":"#F09DA7",
+        "path":""
+    },
+    {
+        "title":"Estoque",
+        "icon":"bx bx-package",
+        "color":"#955A3F",
+        "backcolor":"#9F8579",
+        "path":""
+    }
+]
