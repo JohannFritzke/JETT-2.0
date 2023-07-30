@@ -1,10 +1,10 @@
-import Item from "../Data/Menu-Gerente.json"
 
-export const MenuItens = () => {
+
+export const MenuItens = ({itens}) => {
     return (
         <ul className="insights">
             {
-                Item.map((item, key) => (
+                itens.map((item, key) => (
                     <li key={key}>
                         <i className={item.icon}
                             style={

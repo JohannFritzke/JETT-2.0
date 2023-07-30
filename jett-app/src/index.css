@@ -90,8 +90,8 @@ body {
   font-size: 2.2rem;
 }
 
-.sidebar .logo .logo-name span {
-  color: var(--dark);
+.sidebar .logo  span {
+  color: var(--light);
 }
 
 .sidebar .side-menu {
@@ -336,4 +336,98 @@ main .menu .insights li:hover {
   ;
 }
 
+/* ----------------------------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------LOGIN PAGE------------------------------------------ */
+
+.login {
+  background-color: #25252c;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login .userLogin {
+  background-color: var(--red-rubro);
+  width: 230px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  gap: 10px;
+}
+
+.login .logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--dark);
+  font-weight: bold;
+}
+
+.login .logo .bx {
+  width: 80px;
+  height: 80px;
+  font-size: 5rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--light);
+  background-color: var(--dark);
+}
+
+.login form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.login form span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login form span input {
+  background-color: var(--light);
+  border: none;
+  border-radius: 0 5px 5px 0px;
+  padding: 0.4px;
+  outline: none;
+}
+
+.login form span i {
+  background-color: var(--light);
+  border: none;
+  font-size: 1.3rem;
+  border-radius: 5px 0 0 5px;
+  color: var(--dark);
+}
+
+.login form .button{
+  border: none;
+  padding: 3px;
+  min-width: 90px;
+  background-color: var(--dark);
+  color: var(--light);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.login .userLogin a{
+  text-decoration: none;
+  color: var(--light);
+  font-size: 12px;
+}
 /* ----------------------------------------------------------------------------------------------- */

@@ -5,7 +5,8 @@ import SideBar from "../Components/SideBar/SideBar.jsx";
 import Navbar from "../Components/Navbar.jsx";
 import MenuItens from "../Components/Menu-Itens.jsx";
 
-import items from "../Data/SideBar-Gerente.json"
+import SideBar_Itens from "../Data/SideBar-Gerente.json"
+import Menu_Itens from "../Data/Menu-Gerente.json"
 
 export const Gerente = () => {
     const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -15,10 +16,10 @@ export const Gerente = () => {
     };
     return (
         <main>
-            <SideBar isSidebarOpen={isSidebarOpen} items={items} />
+            <SideBar isSidebarOpen={isSidebarOpen} items={SideBar_Itens} />
             <Navbar handleSidebarToggle={handleSidebarToggle} />
             <div className="menu">
-                <MenuItens />
+                <MenuItens itens={Menu_Itens}/>
             </div>
         </main>
     );
