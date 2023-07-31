@@ -91,7 +91,7 @@ body {
 }
 
 .sidebar .logo  span {
-  color: var(--light);
+  color: var(--dark);
 }
 
 .sidebar .side-menu {
@@ -367,7 +367,7 @@ main .menu .insights li:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: var(--dark);
+  color: var(--light);
   font-weight: bold;
 }
 
