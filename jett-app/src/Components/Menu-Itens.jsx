@@ -1,4 +1,5 @@
-
+/*eslint-disable*/
+import { Link } from "react-router-dom";
 
 export const MenuItens = ({ itens }) => {
     return (
@@ -6,19 +7,26 @@ export const MenuItens = ({ itens }) => {
             <ul className="insights">
                 {
                     itens.map((item, key) => (
-                        <li key={key}>
-                            <i className={item.icon}
-                                style={
-                                    {
-                                        color: `${item.color}`,
-                                        backgroundColor: `${item.backcolor}`
+
+                        <Link to={`/Gerente${item.path}`}
+                            style={{ textDecoration: 'none', color: 'var(--dark)' }}
+                        >
+
+                            <li key={key}>
+                                <i className={item.icon}
+                                    style={
+                                        {
+                                            color: `${item.color}`,
+                                            backgroundColor: `${item.backcolor}`
+                                        }
                                     }
-                                }
-                            ></i>
-                            <span className="info">
-                                <p>{item.title}</p>
-                            </span>
-                        </li>
+                                ></i>
+
+                                <span className="info">
+                                    <p>{item.title}</p>
+                                </span>
+                            </li>
+                        </Link>
                     ))
                 }
             </ul>

@@ -1,5 +1,6 @@
 /*eslint-disable*/
-import { Link } from "react-router-dom";
+
+
 
 export const Login = () => {
     return (
@@ -21,7 +22,7 @@ export const Login = () => {
                         <input type="password" placeholder="Password" name="userLogin" />
                     </span>
 
-                    <Link to="/Gerente"><input type="submit" name="" id="" className="button" /></Link>
+                    <a className="button" href="/Gerente">Enviar</a>
                 </form>
                 <a href="">
                     Esqueceu sua senha?

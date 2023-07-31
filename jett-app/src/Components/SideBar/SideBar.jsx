@@ -13,7 +13,7 @@ export const SideBar = ({ isSidebarOpen , items }) => {
                 items.map((item, key) => <SideBarItem key={key} item={item} />)
             }
             <div className="side-menu">
-                <a href="/login" class="logout">
+                <a href="/" class="logout">
                     <i class='bx bx-log-out-circle'></i>
                     <span className="text">Logout</span>
                 </a>

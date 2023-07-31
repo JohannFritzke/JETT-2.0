@@ -330,7 +330,9 @@ main .menu .insights li .bx {
   justify-content: center;
   text-align: center;
 }
-
+main .menu .insights li i{
+  text-decoration: none;
+}
 main .menu .insights li:hover {
   background-color: rgba(255, 255, 255, 0.3);
   ;
