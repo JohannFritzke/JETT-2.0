@@ -10,7 +10,7 @@ import MenuItens from "../Components/Menu-Itens.jsx";
 
 import SideBar_Itens from "../Data/SideBar-Gerente.json"
 import Menu_Itens from "../Data/Menu-Gerente.json"
-import Menu_Itens2 from "../Data/SideBar-Gerente.json"
+import Menu_Cadastro from "../Data/Menu-Cadastros.json"
 
 import { Routes, Route } from 'react-router-dom';
 
@@ -28,7 +28,7 @@ export const Gerente = () => {
 
             <Routes>
                 <Route path="/" element={<MenuItens itens={Menu_Itens} />} />
-                <Route path="/Cadastros" element={<MenuItens itens={Menu_Itens2} />} />
+                <Route path="/Cadastros" element={<MenuItens itens={Menu_Cadastro} />} />
             </Routes>
 
             

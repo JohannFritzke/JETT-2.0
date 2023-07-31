@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Cadastro de Alunos",
+        "icon": "bx bxs-user-plus",
+        "color": "#13dd74",
+        "backcolor": "#8FF5C4",
+        "path": ""
+    },
+    {
+        "title": "Cadastro de Atividade",
+        "icon": "bx bxs-calendar-plus",
+        "color": "#0CBBFA",
+        "backcolor": "#8DDBF7",
+        "path": ""
+    },
+    {
+        "title": "Cadastro de Produto",
+        "icon": "bx bxs-baguette",
+        "color": "#8C6F22",
+        "backcolor": "#B2A47E",
+        "path": ""
+    },
+    {
+        "title": "Cadastro de Usuarios",
+        "icon": "bx bxs-id-card",
+        "color": "#B734F0",
+        "backcolor": "#D89EF2",
+        "path": ""
+    },
+    {
+        "title": "Cadastro de Profissionais",
+        "icon": "bx bxs-user-rectangle",
+        "color": "#EE21D8",
+        "backcolor": "#F0A8E8",
+        "path": ""
+    }
+]
