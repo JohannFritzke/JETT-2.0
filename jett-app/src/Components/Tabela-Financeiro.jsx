@@ -1,6 +1,7 @@
 
+import dados from "../Data/Financeiro Data/Financeiro-Dados.json"
 
-export const Tabela_Financeiro = ({dados}) => {
+export const Tabela_Financeiro = () => {
     return (
         <div className="menu">
             <div className="table_panel">

@@ -440,49 +440,49 @@ main{
 /* ----------------------------------------------------------------------------------------------- */
 
 /* --------------------------------------------TABELA--------------------------------------------- */
-
-
 .table_panel{
   background-color: var(--light);
   width: 85%;
   height: 500px;
   margin-top: 10px;
+  border-radius: 10px;
 }
 
-table{
-  border-collapse: collapse;
-  width: 98%;
-  margin: 10px;
+table {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  width: 100%;
+  padding: 20px;
+
 }
-th{
-  color: var(--dark);
+
+th {
+  color: white;
+  background-color: var(--dark-grey);
 }
-table tr{
+td {
   text-align: center;
+  height: 30px;
 }
 
-table tr{
-  margin: 10px;
-}
-
-.Ativo{
+.Ativo {
   background-color: #C3F2CB;
 }
 
-.Inativo{
+.Inativo {
   background-color: #FFBEBA;
 }
 
-
-.Pago{
+.Pago {
   background-color: #C3F2CB;
 }
 
-.Debito{
+.Debito {
   background-color: #FFBEBA;
 }
 
-.Vencer{
+.Vencer {
   background-color: #FFEEAA;
 }
+
 /* ----------------------------------------------------------------------------------------------- */

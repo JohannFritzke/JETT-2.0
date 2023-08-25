@@ -1,6 +1,7 @@
 
+import dados from "../Data/Matriculas Data/Tabela-Matriculas.json"
 
-export const Tabela_Matriculas = ({dados}) => {
+export const Tabela_Matriculas = () => {
     return (
         <div className="menu">
             <div className="table_panel">
