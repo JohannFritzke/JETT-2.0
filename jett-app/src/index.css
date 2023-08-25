@@ -272,6 +272,7 @@ body {
   padding: 0 3px 0 3px;
 }
 
+
 .content div label .bx {
   color: #f6f6f9;
   font-size: 1.2rem;
@@ -336,6 +337,10 @@ main .menu .insights li i{
 main .menu .insights li:hover {
   background-color: rgba(255, 255, 255, 0.3);
   ;
+}
+
+main{
+  height: 100vh;
 }
 
 /* ----------------------------------------------------------------------------------------------- */
@@ -431,5 +436,53 @@ main .menu .insights li:hover {
   text-decoration: none;
   color: var(--light);
   font-size: 12px;
+}
+/* ----------------------------------------------------------------------------------------------- */
+
+/* --------------------------------------------TABELA--------------------------------------------- */
+
+
+.table_panel{
+  background-color: var(--light);
+  width: 85%;
+  height: 500px;
+  margin-top: 10px;
+}
+
+table{
+  border-collapse: collapse;
+  width: 98%;
+  margin: 10px;
+}
+th{
+  color: var(--dark);
+}
+table tr{
+  text-align: center;
+}
+
+table tr{
+  margin: 10px;
+}
+
+.Ativo{
+  background-color: #C3F2CB;
+}
+
+.Inativo{
+  background-color: #FFBEBA;
+}
+
+
+.Pago{
+  background-color: #C3F2CB;
+}
+
+.Debito{
+  background-color: #FFBEBA;
+}
+
+.Vencer{
+  background-color: #FFEEAA;
 }
 /* ----------------------------------------------------------------------------------------------- */

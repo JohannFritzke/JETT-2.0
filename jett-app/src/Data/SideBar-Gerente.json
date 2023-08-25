@@ -43,12 +43,12 @@
     {
         "title": "Financeiro",
         "icon": "bx bx-dollar",
-        "path": ""
+        "path": "/Gerente/Financeiro"
     },
     {
         "title": "Matriculas",
         "icon": "bx bx-table",
-        "path": ""
+        "path": "/Gerente/Matriculas"
     },
     {
         "title": "Frequencia",

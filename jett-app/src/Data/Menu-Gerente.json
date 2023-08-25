@@ -18,14 +18,14 @@
         "icon":"bx bx-dollar",
         "color":"#FBC02D",
         "backcolor":"#FFF2C6",
-        "path":""
+        "path":"/Financeiro"
     },
     {
         "title":"Matriculas",
         "icon":"bx bx-table",
         "color":"#4F72E3",
         "backcolor":"#99ABE7",
-        "path":""
+        "path":"/Matriculas"
     },
     {
         "title":"Frenquencia",
